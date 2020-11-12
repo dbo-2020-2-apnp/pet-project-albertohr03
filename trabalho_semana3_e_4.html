@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalho da semana 3 e 4 juntos</title>
+  <style>
+    body {
+      background-color: darkslategray;
+    }
+    label {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>Que tal fazer um currículo? Começe-o logo abaixo!</h1>
+  <p>Nossa empresa procura por pessoas com <b>baixo</b> nível de experiência, onde quer que você tenha atuado. A ideia é te transformar em um ser humano mais qualificado dentro da nossa empresa. Você irá evoluir aqui dentro, e o seu salário poderá passar de R$15,000 para o seu máximo nível de desempenho dentro da empresa.</p>
+  <p>Que tal escutar um ótimo som enquanto faz seu currículo?</p>
+  <audio src="The_Last_Of_us_-_Theme_song_095300_18092020.mp3" autoplay controls></audio>
+  <p><i>The Last Of Us I main theme on YouTube.</i></p>
+  <figcaption>
+  <img src="tlou.jpg" alt="The Last Of Us I wallpaper" title="The Last Of Us I">
+  </figcaption>The Last Of Us I wallpaper.
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" maxlength="200" placeholder="Tonico Fortunato Real">
+    <label for="idade">Idade:</label>
+    <input type="text" id="idade" name="idade" maxlength="3" placeholder="18">
+    <br>
+    <br>
+    <label for="preso"><b>Já fostes preso?</b> </label>
+    <br>
+    <input type="radio" id="preso" name="preso" value="Sim">Sim
+    <input type="radio" id="preso" name="preso" value="Nao">Não
+    <br>
+    <br>
+<fieldset>
+  <legend>
+    Quantos empregos você já teve anterior a este?
+  </legend>
+  <datalist id="opcoes">
+    <option value="0."></option>
+    <option value="1."></option>
+    <option value="2."></option>
+    <option value="Mais de 2."></option>
+    <option value="Nem lembro mais."></option>
+  </datalist>
+  <input type="text" id="opcoes" name="opcoes" list="opcoes">
+  </fieldset>
+  <br>
+    <label for="nota">De 0 a 10, quanto você considera seu desempenho em geral?</label>
+    <input type="range" id="nota" name="nota" min="0" max="10">
+    <label for="mao">Você é destro ou canhoto?</label>
+    <br>
+    <input type="text" id="mao" name="mao" placeholder="Destro">
+    <fieldset>
+      <legend>
+        Marque as opções que já fizeste ou ainda faz em sua vida:
+      </legend>
+      <label for="videogame"><input type="checkbox" id="videogame" name="videogame">Joguei videogame por mais de 20 horas seguidas.</label>
+      <label for="exercicios"><input type="checkbox" id="exercicios" name="exercicios">Pratico exercício físico regularmente.</label>
+      <label for="veiculo"><input type="checkbox" id="veiculo" name="veiculo">Possuo um veículo com seguro.</label>
+    </fieldset>
+    <br>
+    <label for="meme">Manda pra gente uma foto sua com sua família : )</label>
+    <input type="file" accept="image/*">
+    <br>
+    <br>
+    <br>
+    <button>Enviar</button>
+  </form>
+</body>
+
+</html>
