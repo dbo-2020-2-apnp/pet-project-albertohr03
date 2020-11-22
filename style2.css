@@ -1,0 +1,57 @@
+body {
+  color: hsl(0, 0%, 0%);
+  background-color: hsl(280, 100%, 50%);
+  border-style: solid;
+  border-width: 0.5em;
+  border-color: #fd8700;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(0, 0%, 0%);
+  border-style: dashed;
+  border-width: 0.5em;
+  border-color: #ccfa00;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  text-transform: capitalize;
+  text-align: center;
+  color: lightseagreen;
+  text-shadow: 3px -3px 6px #3344FA;
+}
+
+p.espacado {
+  font-family: "Sansita Swached", cursive;
+  text-align: justify;
+  letter-spacing: 0.2em;
+  line-height: 2em;
+}
+
+span.modificado {
+  font-family: "Sansita Swached", cursive;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  line-height: 2em;
+}
+
+div {
+  background-color: hsl(118, 27%, 40%);
+  /*height:3em;*/
+  text-align: center;
+  line-height: 3em;
+}
+
+div.amarela {
+  background-color: rgb(255,255,0);
+}
+
+div:nth-child(3) {
+  background-color: brown;
+}
+
+div:nth-child(4) {
+  background-color: hsl(245, 100%, 50%);
+}
